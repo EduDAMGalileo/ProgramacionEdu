@@ -1,0 +1,27 @@
+# Compilados y paquetes
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Maven y Gradle
+target/
+.mvn/
+.gradle/
+build/
+bin/
+
+# IDEs (IntelliJ, Eclipse, NetBeans, VS Code)
+.idea/
+*.iml
+.metadata/
+.settings/
+.classpath
+.project
+nbproject/
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

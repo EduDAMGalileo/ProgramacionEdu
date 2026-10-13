@@ -1,6 +1,5 @@
 package entradaSalida;
 
-<<<<<<< HEAD
 import java.util.Scanner;
 
 public class ProblemaScanner {

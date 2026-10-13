@@ -10,6 +10,8 @@ public class SaludoPersonalizado {
 		System.out.print("Hola, cómo te llamas?");
 		nombre=lector.nextLine();
 		System.out.print("Encantado de cononcerte " + nombre);
+		
+		lector.close();
 				
 	}
 

@@ -1,7 +1,6 @@
 package variables;
 
 public class TiposDeVariables {
-<<<<<<< HEAD
     public static void main(String[] args) {
 
         // =======================================================
@@ -94,37 +93,3 @@ public class TiposDeVariables {
         System.out.printf("Constante PI: %.5f | Dias: %d%n", PI, DIAS_DE_LA_SEMANA);
     }
 }
-=======
-	public static void main (String[] args) {
-		//Definimos variables de tipo entero
-		byte numeroMuyPequeño = 100;
-		short numeroPequeño = 3550;
-		
-		//Además de declarar, le podemos dar un valor inicial
-		int numeroEstandar = 3500;
-		long numeroGrande;
-		
-		//Para variables númericas decimales
-		
-		float decimalPequeño = 3.15F;
-		double decimalGrande =3.15;
-		
-		//Existen variables que permiten guardar caracteres
-		char caracter1 = 'p';
-		char caracter2 = 'J';
-		char caracter3 = '3';
-		char caracter4 = ':';
-		char caracter5 = '/';
-		
-		//Hay varaibles lógicas, se usan mucho en bucles y condicionales
-		boolean verdadero=true;
-		boolean falso=false;
-		
-		//Aunque no sea un tipo básico, metemos aquí al String
-		String cadena = "Hola, soy una cadena de caracteres";
-		
-	}
-
-}
-
->>>>>>> 0e4faa834b6589ef338d660caf20e4aeaffa13d3

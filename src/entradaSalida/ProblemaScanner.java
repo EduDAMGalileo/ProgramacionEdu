@@ -51,11 +51,3 @@ public class ProblemaScanner {
         teclado.close(); 
     }
 }
-=======
-public class ProblemaScanner {
-	public static void main (String[] args) {
-		
-	}
-
-}
->>>>>>> 0e4faa834b6589ef338d660caf20e4aeaffa13d3

@@ -3,7 +3,7 @@ package estructurasControl;
 public class EstructuraSwitch {
     public static void main(String[] args) {
         
-        int diaSemana = 3; // 1: Lunes, 2: Martes, 3: Miércoles...
+        int diaSemana = 1; // 1: Lunes, 2: Martes, 3: Miércoles...
         System.out.println("Día de la semana (número): " + diaSemana);
         System.out.println("----------------------------------");
 
@@ -25,7 +25,6 @@ public class EstructuraSwitch {
                 break;
             default: // Funciona como el 'else' final
                 System.out.println("Día no válido (debe ser 1, 2 o 3)");
-                break;
         }
 
         // ==========================================

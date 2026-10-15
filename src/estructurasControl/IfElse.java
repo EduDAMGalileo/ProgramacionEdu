@@ -3,7 +3,7 @@ package estructurasControl;
 public class IfElse {
     public static void main(String[] args) {
         
-        int edad = 16;
+        int edad = 18;
         System.out.println("Edad del usuario: " + edad);
         System.out.println("----------------------------------");
 

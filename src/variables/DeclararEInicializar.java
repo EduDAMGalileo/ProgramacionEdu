@@ -8,7 +8,7 @@ public class DeclararEInicializar {
 		edad = 18;        
 		
 		 // Declaración + inicialización (lo más habitual)
-		int curso = 1;    
+		int curso = 1; 
 
 		// Asignación: el 18 se sustituye y se pierde
 		edad = 19;          

@@ -1,6 +1,6 @@
 package entradaSalida;
 
-public class AmbitoVaraible {
+public class AmbitoVariable {
 	//Esto tiene mucho más sentido cuando veamos bucles, métodos y demás
 	public static void main(String[] args) {
 		// x existe hasta el final de main

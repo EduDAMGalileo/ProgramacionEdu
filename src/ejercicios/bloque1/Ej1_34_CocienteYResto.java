@@ -7,26 +7,24 @@ public class Ej1_34_CocienteYResto {
 		Scanner sc = new Scanner(System.in);
 		//Se pueden declarar varias variables en la misma linea
 		int num1, num2;
-		int suma, resta, multiplicacion;
+		
 		System.out.print("Dame el primer número: ");
 		num1 = sc.nextInt();
 		System.out.print("Dame el segundo número: ");
 		num2 = sc.nextInt();
 		
-		suma = num1 + num2;
-		resta = num1 - num2;
-		multiplicacion = num1 * num2;
+		int cocienteEntero=num1/num2;
+		double cocienteReal=(double)num1/num2;
 		
-		System.out.println("La suma es: " + suma);
-		System.out.println("La resta es: " + resta);
-		System.out.println("El producto es: " + multiplicacion);
-		
-		//Version2
-		System.out.println("La suma es: " + (num1 + num2));
-		System.out.println("La resta es: " + (num1 - num2));
-		System.out.println("El producto es: " + num1*num2);
-		
+		//El operador módulo en JAva es el símbolo %
+		int resto=num1%num2;
+		System.out.println("El cociente es: " + cocienteEntero + 
+				" y el resto es " + resto);
+		System.out.println("El cociente con decimales es: " + cocienteReal);
 		sc.close();
+		
+		System.out.println(0.1 + 0.2);
+
 	}
 
 }

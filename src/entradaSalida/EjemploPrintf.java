@@ -23,10 +23,10 @@ public class EjemploPrintf {
         int puntos = 1500;
 
         // El primer %d se sustituye por la variable 'edad'
-        System.out.printf("Tengo %d anos.%n", edad);
+        System.out.printf("Tengo %d años.%n", edad);
 
         // Puedes poner varias variables (se rellenan en orden de izquierda a derecha):
-        System.out.printf("Tienes %d anos y has conseguido %d puntos.%n%n", edad, puntos);
+        System.out.printf("Tienes %d años y has conseguido %d puntos.%n%n", edad, puntos);
 
 
         // ==========================================

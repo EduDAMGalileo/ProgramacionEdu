@@ -87,6 +87,8 @@ public class TiposDeVariables {
         final double PI = 3.14159;
         final int DIAS_DE_LA_SEMANA = 7;
 
+
+
         // Si intentaras hacer: PI = 3.20; -> DARÍA ERROR, no te dejaría compilar.
 
         System.out.println("--- 5. CONSTANTES (con final) ---");

@@ -1,4 +1,4 @@
-package entradaSalida;
+package variables;
 
 public class AmbitoVariable {
 	//Esto tiene mucho más sentido cuando veamos bucles, métodos y demás

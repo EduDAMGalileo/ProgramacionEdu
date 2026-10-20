@@ -1,4 +1,4 @@
-package estructurasControl;
+package estructurasCondicionales;
 
 public class IfElseIf{
     public static void main(String[] args) {

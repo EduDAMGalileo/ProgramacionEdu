@@ -2,7 +2,7 @@ package ejercicios.bloque2;
 
 import java.util.Scanner;
 
-public class Ej_2_44_Bisiesto {
+public class Ej2_44_Bisiesto {
 	public static void main(String[] args) {
 		int anio;
 		Scanner sc = new Scanner(System.in);

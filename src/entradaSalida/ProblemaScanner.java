@@ -48,5 +48,7 @@ public class ProblemaScanner {
         
         // Buena práctica: cerrar el Scanner al final, sino Eclipse muestra un Warning
         teclado.close(); 
+        
+        IO.print("Hola");
     }
 }

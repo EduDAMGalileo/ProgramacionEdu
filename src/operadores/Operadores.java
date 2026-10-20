@@ -111,5 +111,7 @@ public class Operadores {
         boolean lucesEncendidas = true;
         boolean lucesApagadas = !lucesEncendidas; // Pasa a false
         System.out.printf("Negacion de luces: !true = %b%n", lucesApagadas);
+
+
     }
 }

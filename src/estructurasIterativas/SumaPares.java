@@ -17,7 +17,7 @@ public class SumaPares {
             
             // Filtro condicional: ¿es par? (resto de dividir entre 2 es 0)
             if (n % 2 == 0) {
-                sumaPares += n; // Acumulamos el número par
+                sumaPares += n; // Acumulamos el número par sumaPares= sumaPares + n
                 System.out.println("Sumado el número: " + n + "  -->  Suma acumulada = " + sumaPares);
             }
         }

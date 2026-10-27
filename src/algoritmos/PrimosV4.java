@@ -14,6 +14,7 @@ public class PrimosV4 {
 
         boolean esPrimo = true;
 
+        //Primero los casos especiales (el 1, el 2 y todos los pares)
         if (n <= 1) {
             esPrimo = false;
         } else if (n == 2) {

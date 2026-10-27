@@ -18,13 +18,13 @@ public class ContarPrimosHasta{
         long inicio = System.nanoTime();
         int totalV1 = contarPrimosConMetodo(limite, 1);
         long t1 = System.nanoTime() - inicio;
-        System.out.printf("Método 1 (Todos de 2 a N-1)		-> Primos: %d | Tiempo: %.2f ms%n", totalV1, t1 / 1_000_000.0);
+        System.out.printf("Método 1 (Todos de 2 a N-1)		-> Primos encontrados: %d | Tiempo: %.2f ms%n", totalV1, t1 / 1_000_000.0);
 
         // Probamos la Versión 2
         inicio = System.nanoTime();
         int totalV2 = contarPrimosConMetodo(limite, 2);
         long t2 = System.nanoTime() - inicio;
-        System.out.printf("Método 2 (Parar al encontrar div)	-> Primos: %d | Tiempo: %.2f ms%n", totalV2, t2 / 1_000_000.0);
+        System.out.printf("Método 2 (Parar al encontrar div)	-> Primos encontrados: %d | Tiempo: %.2f ms%n", totalV2, t2 / 1_000_000.0);
 
         // Probamos la Versión 3 (Hasta N/2)
         inicio = System.nanoTime();

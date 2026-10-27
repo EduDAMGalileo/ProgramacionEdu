@@ -14,6 +14,7 @@ public class PrimosV2 {
         if (n <= 1) {
             esPrimo = false;
         } else {
+        	//Controlamos con una bandera, si el número no es primo nos salimos
             for (long d = 2; d < n && esPrimo; d++) {
                 if (n % d == 0) {
                     esPrimo = false;

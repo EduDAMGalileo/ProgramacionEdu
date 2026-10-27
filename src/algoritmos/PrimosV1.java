@@ -14,7 +14,7 @@ public class PrimosV1 {
         if (n <= 1) {
             esPrimo = false;
         } else {
-            for (long d = 2; d <= n - 1; d++) {
+            for (long d = 2; d < n; d++) {
                 if (n % d == 0) {
                     esPrimo = false;
                 }

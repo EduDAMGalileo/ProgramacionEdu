@@ -15,6 +15,7 @@ public class PrimosV3 {
         if (n <= 1) {
             esPrimo = false;
         } else {
+        	//Miramos solo hasta la mitad del número, después no va a haber divisores
             for (long d = 2; d <= n / 2 && esPrimo; d++) {
                 if (n % d == 0) {
                     esPrimo = false;

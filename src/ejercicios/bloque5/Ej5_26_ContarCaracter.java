@@ -3,7 +3,7 @@ package ejercicios.bloque5;
 import java.util.Scanner;
 
 public class Ej5_26_ContarCaracter {
-
+	
 	public static int contar(String s, char c) {
 		int veces=0;
 		for (int i=0; i<s.length();i++) {
@@ -13,6 +13,7 @@ public class Ej5_26_ContarCaracter {
 		}
 		return veces;
 	}
+
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -28,9 +29,10 @@ public class Ej5_26_ContarCaracter {
 				numApariciones++;
 			}
 		}*/
-		int numApariciones= contar(frase, caracter);
+		int numApariciones = contar(frase, caracter);
 		System.out.printf("En total, el caracter %c aparece "
 				+ "un total de %d veces", caracter, numApariciones);
 	}
+	
 
 }

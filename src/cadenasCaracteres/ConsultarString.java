@@ -5,7 +5,7 @@ public class ConsultarString {
         
     	// Ejemplo para ver los métodos de consulta
         // length() -> Devuelve el número total de caracteres
-        String saludo = "Hola";
+        String saludo = "Hola lala bien la";
         System.out.println("length():");
         // Para mostrar las comillas tenemos que escaparlas con la \
         System.out.println("\"Hola\".length() = " + saludo.length());
@@ -50,5 +50,6 @@ public class ConsultarString {
         System.out.println("\nstartsWith(s) / endsWith(s):");
         System.out.println("\"foto.jpg\".startsWith(\"foto\") = " + archivo.startsWith("foto")); 
         System.out.println("\"foto.jpg\".endsWith(\".jpg\") = " + archivo.endsWith(".jpg"));
+        System.out.println("\"foto.jpg\".endsWith(\".pdf\") = " + archivo.endsWith(".pdf"));
     }
 }

@@ -23,5 +23,18 @@ public class Ej3_63_TrianguloRectangulo {
 		for(int i=1; i<=numero;i++) {
 			System.out.println("*".repeat(i));
 		}
+		
+		//Lo pintmos al revés
+		for (int i=1; i<=numero;i++) {
+			for (int j=1; j<=numero-i;j++) {
+				System.out.print(" ");
+			}
+			for (int k=1; k<=i;k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+				
+		}
+		
 	}
 }
